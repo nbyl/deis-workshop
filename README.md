@@ -8,7 +8,13 @@ Die Folien sind im Ordner slides vorhanden und mit Hilfe von [reveal.js](http://
 
 Demo
 ----
-Um das Demo auszuführen wird deis.io am besten nach der [Anleitung](http://docs.deis.io/en/latest/installing_deis/vagrant/) installiert.
+Vorraussetzungen:
+- Vagrant ist installiert:
+- [deisctl](http://docs.deis.io/en/latest/installing_deis/install-deisctl/#install-deisctl) ist installiert
+
+Um das Demo auszuführen wird deis.io am besten nach der [Anleitung](http://docs.deis.io/en/latest/installing_deis/vagrant/) installiert. Alternativ kann das Skript create-cluster.sh genutzt werden:
+
+    ./create-cluster.sh
 
 Für die Installation des vagrant-Plugins müssen unter Ubuntu einige Pakete vorher installiert sein:
 
