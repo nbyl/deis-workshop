@@ -1,3 +1,6 @@
 [submodule "tools/deis"]
 	path = tools/deis
 	url = git@github.com:deis/deis.git
+[submodule "demo"]
+	path = demo
+	url = git@github.com:nbyl/deis-demo.git
