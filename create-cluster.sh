@@ -3,13 +3,6 @@
 set -e
 set -x
 
-echo "Updating git submodules..."
-git submodule init
-git submodule update
-echo "Done."
-
-# TODO: install vagrant plugin
-
 echo "Provisioning CoreOS cluster..."
 cd tools/deis
 make discovery-url
