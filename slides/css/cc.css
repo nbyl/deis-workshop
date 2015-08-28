@@ -1,0 +1,26 @@
+.reveal section img {
+  background-color: white;
+}
+
+.reveal h2, .reveal h3 {
+  font-family: Panton;
+  text-transform: none;
+}
+
+.reveal code {
+  font-family: Monoid;
+}
+
+.reveal div {
+  font-family: Panton;
+}
+
+.reveal .license {
+  font-size: 12pt;
+}
+
+span.twelve-factor-explanation {
+  display: block;
+  font-size: 0.7em;
+  margin-bottom: 0.5em;
+}
