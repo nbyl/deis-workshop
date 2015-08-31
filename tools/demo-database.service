@@ -1,0 +1,12 @@
+[Unit]
+Description=Demo Database
+After=docker.service
+Requires=docker.service
+
+[Service]
+TimeoutStartSec=0
+ExecStartPre=-/usr/bin/docker kill demo-database
+ExecStartPre=-/usr/bin/docker rm demo-database
+ExecStartPre=/usr/bin/docker pull mongo:3.1
+ExecStart=/usr/bin/docker run --name demo-database -p 27017:27017 mongo:3.1
+ExecStop=/usr/bin/docker stop demo-database
