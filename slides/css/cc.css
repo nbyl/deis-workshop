@@ -24,3 +24,12 @@ span.twelve-factor-explanation {
   font-size: 0.7em;
   margin-bottom: 0.5em;
 }
+
+.image-source-link a {
+  color: white;
+  font-size: 0.5em;
+}
+.image-source-link a:hover {
+  color: white;
+  text-decoration: underline;
+}
